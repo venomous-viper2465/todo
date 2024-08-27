@@ -1,0 +1,33 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "Todo list using vanilla Javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mooniiDev/todo-list.git"
+  },
+  "author": "mooniiDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mooniiDev/todo-list/issues"
+  },
+  "homepage": "https://github.com/mooniiDev/todo-list#readme",
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "prettier": "2.5.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "date-fns": "^2.28.0"
+  }
+}
